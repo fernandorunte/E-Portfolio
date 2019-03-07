@@ -210,8 +210,8 @@
 	.skills-box{
 		background-color: rgba(53, 66, 74, .1);
 		text-align: center;
-		display: inline-block;
-		margin: 10px;
+		display: block;
+		
 	}
 
 	 #skills li{
@@ -288,7 +288,12 @@
 	}
 	/*Here i end the Contact section*/
 
+	/*Here i start the footer section*/
+	footer{
+		text-align: center;
+	}
 
+	/*Here i end the footer section*/
 
 
 
