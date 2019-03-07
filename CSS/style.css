@@ -62,10 +62,10 @@
 	}
 
 	/* showcase */
-	#showcase{
+	/*#showcase{
 		margin-left: auto;
 		margin-right: auto;
-		width: 80%; /* width has to be less than 100% if using margin settings */
+		width: 80%; 
 		min-height: 500px;
 		background: url("../Images/background.jpg") no-repeat;
 		background-size: 100%;
@@ -73,9 +73,22 @@
 		background-position-y: 0px;
 		text-align: center;
 		color: #ffffff;
-	}
+	}*/
 
-	#showcase h1{
+/*	#showcase{
+		background: url("https://images.unsplash.com/photo-1544030622-5c2c58b1c463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80") no-repeat;
+		background-size: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%; 
+		min-height: 300px;
+
+	}*/
+/*"../Images/background.jpg"*/
+
+
+
+	/*#showcase h1{
 		margin-top: 100px; 
 		font-size: 55px;
 		margin-bottom: 10px;
@@ -83,7 +96,7 @@
 
 	#showcase p{
 		font-size: 20px;
-	}
+	}*/
 	/*Here i end the Showcase section*/
 
 
@@ -98,65 +111,32 @@
 		text-align: center;
 	}
 
-/*	#about a{
-		text-decoration: none;
-		font-size: 20px; 
-	}*/
-
 	#about .container{
-		background-color: rgba(48, 56, 65, .1);
+	/*	background-color: rgba(48, 56, 65, .1);*/
 		/*border: 1px solid blue;*/
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
 
-	
-
-	#about_picture{
-		height: auto;
-		max-width: 80%;
-		/*float: left;*/
-		/*width: 500px;*/
-		/*padding: 15px;*/
-	}
-
-	#about_info{
-		/*float: right;*/
-		/*width: 650px;*/
-		/*height: 400px;	*/ 
-		/*padding: 10px 35px 10px 15px;*/
-		/*border: 5px solid white;*/
-		line-height: 4;
-		/*background: rgba(255, 87, 34, 0.1); the fourth value is the Opacity value*/
-	}
-
-	#about_info .highlight{
+	.highlight{
 		color: #e8491d;
 		font-weight: bold;
 	}
 
-	#button_area{
-		align-self: flex-end;
-		border-bottom: 1px solid #35424a;
+	.contact_button_div{
+		border-bottom: medium groove #35424a;
+		text-decoration: none;
 	}
+
+	.contact_button_div a{
+		text-decoration: none;
+		color: black;
+	}
+
 	/*Here i end the About section*/
 
-
-
-
-
 	/*Here i will start the Related Experience section*/
-
-	#relatedexperience{
-		/*border: 1px solid red;*/
-	}
-
-	#relatedexperience .container, #otherexperience .container{
-		/*border: 1px solid blue;*/
-		/*width: 90%;*/
-	}
-
 	#relatedexperience h1, #otherexperience h1, #skills h1, #about h1{
 		border-bottom: solid 3px #ff5722;
 		width: 250px;
@@ -167,50 +147,20 @@
 		/*border: 1px solid red;*/
 		background-color: rgba(48, 56, 65, .1);
 		margin: 10px;
+		padding: 10px;
 	}
 
 	.box li{
 		text-align: left;
 	}
-
 	/*Here i end the Related Experience section*/
 
-
 	/*Here i start the Other Experience section*/
-
-	/*#otherexperience .box:last-child{
-		border: 1px solid red;
-		height: inherit;
-	}*/
-	
-
-
-
 	/*Here i end the Other Experience section*/
 
-
-
-
-
 	/* here i style the skills section */
-	#skills{
-		/*margin: 50px;*/
-		/*background-color: #35424a;*/
-
-	}
-
-	#skills .container{
-		width: 80%;
-		/*border: 1px solid blue;*/
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-
 	.skills-box{
 		background-color: rgba(53, 66, 74, .1);
-		text-align: center;
-		display: block;
-		
 	}
 
 	 #skills li{
@@ -219,8 +169,6 @@
 		/*border-bottom: 1px solid #ff5722;*/
 	 }
 	 /*Here i end the skills section*/
-
-
 
 	/*Here i begin the Contact section*/
 	#contact{
@@ -231,7 +179,6 @@
 
 	#contact-form{
 		margin: 15px;
-		  /*here is it*/
 		padding: 20px;
 		color: #f4f4f4;
 		size: 25px;
@@ -293,6 +240,5 @@
 	}
 
 	/*Here i end the footer section*/
-
 
 
