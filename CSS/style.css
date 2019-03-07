@@ -106,17 +106,18 @@
 	}
 
 	#about_container{
-		width: 80%;
-		height: 80%;
 		background-color: rgba(48, 56, 65, .1);
 		margin: 50px;
 		padding: 50px;
 		/*border: 1px solid blue;*/
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-around;
 	}
 
 	#about_picture{
+		height: auto;
+		width: 80%;
 		/*float: left;*/
 		/*width: 500px;*/
 		/*padding: 15px;*/
