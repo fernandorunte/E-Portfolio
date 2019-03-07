@@ -1,0 +1,73 @@
+/*selector{
+	property: value;
+}*/
+
+*{ /*this selects all selectors, global value*/
+	text-align: center;
+}
+
+a:hover, a:visited, a:link, a:active{
+	text-decoration: none;
+}
+
+body{
+	/*background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #EEE;
+}
+
+ul{
+	text-decoration: none;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+}
+
+h2{
+	font-size: 300%;
+	color: #303841;
+}
+
+h2 + p{ /*this selector says, select the <p> tag that comes right after the <h2> tag*/
+	color: #ff5722;
+}
+
+h2:hover{
+	border-bottom: 5px solid red;
+}
+
+img{
+	float: left;
+	object-position: 50% 50%;
+	object-fit: cover;
+}
+
+p{
+	line-height: 50px;
+	/*text-decoration: underline;*/
+	font-size: 200%;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.webtext:last-child { /*this selector will only affect the last child of webtext*/
+	color: #00adb5;
+	border-bottom: 2px solid #303841;
+}
+
+.active{
+	color: #ff5722;
+}
+
+#backgroundP{
+	background: rgba(0, 0, 255, 0.2); /*the fourth value is the Opacity value*/
+}

@@ -1,0 +1,5 @@
+Stacks:
+
+Wamp ( windows, Apache, mySQL, PHP) - oldish
+
+Mean (MongoDb, ExpressJS, Angular, Nodejs) - new
