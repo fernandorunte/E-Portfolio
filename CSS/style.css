@@ -34,7 +34,7 @@
 	
 	header li{
 		float: left;
-		display: inline;
+		display: inline-block;
 		padding: 0 20px 0 20px;
 	}
 
