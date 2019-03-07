@@ -95,29 +95,27 @@
 		width: 80%;
 		margin: auto;
 		overflow: hidden;
-		/*border: 1px solid red;*/
 		text-align: center;
 	}
 
-	#about a{
-		color: black;
+/*	#about a{
 		text-decoration: none;
-		font-size: 16px; 
-	}
+		font-size: 20px; 
+	}*/
 
-	#about_container{
+	#about .container{
 		background-color: rgba(48, 56, 65, .1);
-		margin: 50px;
-		padding: 50px;
 		/*border: 1px solid blue;*/
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
 
+	
+
 	#about_picture{
 		height: auto;
-		width: 80%;
+		max-width: 80%;
 		/*float: left;*/
 		/*width: 500px;*/
 		/*padding: 15px;*/
@@ -129,7 +127,7 @@
 		/*height: 400px;	*/ 
 		/*padding: 10px 35px 10px 15px;*/
 		/*border: 5px solid white;*/
-		line-height: 6;
+		line-height: 4;
 		/*background: rgba(255, 87, 34, 0.1); the fourth value is the Opacity value*/
 	}
 
